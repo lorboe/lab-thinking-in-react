@@ -8,9 +8,8 @@ return (
        <tr>
          {!el.stocked ?
         <td style={{color:"red"}}> {el.name} </td> :  <td> {el.name} </td>}
-          <td style={{textAlign:"right"}}>{el.price} € </td>
+         <td style={{textAlign:"right"}}>{el.price} € </td> 
        </tr>
-    
     ))}
     </div>
     )
